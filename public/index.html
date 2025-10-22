@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Application</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Your Web App</h1>
+        </header>
+
+        <main>
+            <section class="intro">
+                <p>This is a simple web application built with HTML, CSS, and JavaScript.</p>
+            </section>
+
+            <section class="interactive">
+                <h2>Interactive Demo</h2>
+                <div class="counter-section">
+                    <p>Click the button to increment the counter:</p>
+                    <button id="incrementBtn" class="btn">Click Me!</button>
+                    <p class="counter">Count: <span id="count">0</span></p>
+                </div>
+
+                <div class="input-section">
+                    <input type="text" id="nameInput" placeholder="Enter your name">
+                    <button id="greetBtn" class="btn">Greet</button>
+                    <p id="greeting"></p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Simple Web App</p>
+        </footer>
+    </div>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>
